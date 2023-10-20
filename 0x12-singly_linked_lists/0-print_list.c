@@ -21,8 +21,8 @@ int _strlen(char *s)
  * print_list - print element of a linked list
  * @h: pointer
  *
- * Return: the size off the list
- */
+ * Return: the size of the list
+*/
 size_t print_list(const list_t *h)
 {
 	size_t l = 0;
