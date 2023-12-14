@@ -8,7 +8,7 @@
 
 int get_endianness(void)
 {
-	unsigned log int n = 1;
+	unsigned long int n = 1;
 
 	return (*(char *)&n);
 }
